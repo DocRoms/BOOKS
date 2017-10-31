@@ -2,10 +2,10 @@
 
 ##### [FR](README.rnd) | [EN](README.en.rnd)
 
-Ce dépot 
+This repository
 
 ## HTML
-#### [Bases](/html/prerequest.rnd)
+
 
 ## JavaScript
     console
