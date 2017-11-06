@@ -1,6 +1,6 @@
 # BOOKS
 
-##### [FR](README.md) | [EN](README.en.md)
+##### [FR](README.md) | [EN](README.EN.md)
 
 This repository
 
