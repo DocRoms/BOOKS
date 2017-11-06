@@ -1,11 +1,11 @@
 # BOOKS
 
-##### [FR](README.rnd) | [EN](README.en.rnd)
+##### [FR](README.md) | [EN](README_EN.md)
 
 Ce dépot 
 
 ## HTML
-#### [Bases](/html/prerequest.rnd)
+#### [Bases](html/PREREQUEST.md)
 
 ## JavaScript
     console
