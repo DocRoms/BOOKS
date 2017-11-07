@@ -8,7 +8,7 @@ Ce dépot
 #### [Bases](html/PREREQUEST.md)
 
 ## JavaScript
-    console
-
+#### [Bases](javascript/PREREQUEST.md)
 
 ## PHP
+#### [Bases](php/PREREQUEST.md)
