@@ -1,6 +1,6 @@
-#Les bases du HTML
+# Les bases du HTML
 
-##Une histoire de balise
+## Une histoire de balise
 Le HTML est un language interpretté par un navigateur internet (Edge, Firefox, Opéra Chrome)
 reçoivent des pages en HTML, et affichent la page designé à partir du code reçu.
 
@@ -15,7 +15,7 @@ Une balise ouvrante et fermante :
 
 Une balise auto-fermante: 
 ```html
-<br />    
+<br />
 ```
 
 Ces différentes balises peuvent posséder un ou plusieurs attributs, ceux-ci peuvent être obligatoire ou facultatif, suivant la balise:
@@ -49,57 +49,78 @@ Voici un exemple complet de page HTML simplifiée: (en HTML5)
 </html>
 ```
 
+Dans cet exemple, deux lignes vous sont encore inconnues: 
+```html
+<!DOCTYPE html>
+```
+Il s'agit de la première information qui doit apparaitre sur votre page HTML, c'est cette balise spéciale (le doctype) qui présente au
+navigateur internet, la version de HTML utilisée.
+
+```html
+<!-- Liste de mes articles -->
+```
+Cette ligne présente un commentaire, vous pouvez l'utilisez dans votre code sans aucunes incidence sur le design de votre page, 
+Il suffit de laisser un commentaire entre les balises `<!--` et `-->`.
+
+
+
 ## Une histoire d'imbrication...
-
-
-
-## Un HTML performant.
-Voici deux codes HTML qui ont exacyement le même rendu: 
-
-Exemple 1: 
+Les balises HTML s'imbriquent par niveau.
+Une structure iddentique existe pour chaque page HTML, il faut obligatoirement le respecter :
 ```html
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <title>Mon titre</title>
-    </head>
-    <body>
-        <nav>Mon menu</nav>
-        <section>
-            <article>
-                Mon premier article
-            </article>
-        </section>
-    </body>
+<html>
+    <head></head>
+    <body></body>
 </html>
 ```
+Cette structure est composée de trois balises dites 'structurelles', que sont `<html></html>`, `<head></head>` et `<body></body>` 
 
-Exemple 2: 
+### La balise `<html>`
+Cette balise ne doit contenir que les balises `<head>` et `<body>`.
+
+### La balise `<head>`
+Les balises contenues entre les balises `<head>` et `</head>` sont généralement des balises de présentation, et de description du corps du document.
+Entre ces deux balises peuvent figurer: 
+
+La balise `<title></title>` qui contient le titre du site internet : 
 ```html
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <title>Mon titre</title>
-        <style></style>
-    </head>
-    <body>
-        <div id="content">
-            <nav>
-                <span>Mon menu</span>
-            </nav>
-            <section>
-                <div id="articles">
-                <article>
-                    <p>
-                    Mon premier article
-                    </p>
-                </article>
-                <article>
-                    
-                </article>
-                </div>
-            </section>
-        </div>
-    </body>
-</html>
+<title>Mon site internet</title>
+``` 
+
+Les balises `<meta />` qui décrivent le site internet:
+```html
+<meta charset="UTF-8" />
+<meta name="robots" content="index,follow,all" />
+<meta name="identifier-URL" content="https://monSiteInternet.fr" />
+<meta name="ContentOwner" content="Henry Goland" />
+<meta name="Description" content="La description de mon site" />
+<meta name="Keywords" content="Code, Lyon, Dev" />
+<meta /> ...
 ```
+
+Les balises `<link href="" rel="" type="" />` qui permettent de charger différentes ressources:
+```html
+<link rel="shortcut icon" type="image/x-icon"  href="monIcone.ico"/>
+<link rel="stylesheet" type="text/css" href="monPremierFichier.css" />
+<link rel="stylesheet" type="text/css" href="monsecondFichier.css" />
+```
+
+Les balises `<script></sript>` qui contiennent différents scripts (généralement du javascript): 
+Ces balises peuvent être utilisées pour charger un fichier: 
+```html
+<script type="text/javascript" src="monScript.js" />
+```
+Ou contenir directement du code: 
+```html
+<script type="text/javascript">
+    function logMyName(name){
+        console.log(name);
+    }
+    
+    logMyName('Heisenberg');
+</script>
+```
+
+### La balise `<body>`
+La balise `<body>` correspond au corps du site internet. Ici, mis à part les commentaires (ex : `<!-- Mon super commentaire-->`), tout 
+ce que vous changerez aurra une incidence directe sur la page visible par vos utilisateurs.

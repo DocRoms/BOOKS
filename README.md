@@ -6,7 +6,8 @@ Ce dépôt est initialisé dans le but de pouvoir se former, ou maintenir son ni
 de code à jour dans différents languages de programmations.
 
 ## HTML
-#### [Bases](html/fr/PREREQUEST.md)
+#### [Les bases du HTML](html/fr/PREREQUEST.md)
+#### [HTML et performance](html/fr/PERFORMANCE.md)
 
 ## JavaScript
 #### [Bases](javascript/fr/PREREQUEST.md)
