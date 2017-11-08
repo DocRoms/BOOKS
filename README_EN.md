@@ -5,10 +5,10 @@
 This repository
 
 ## HTML
-#### [Bases](html/PREREQUEST.md)
+#### [Bases](html/en/PREREQUEST.md)
 
 ## JavaScript
-#### [Bases](javascript/PREREQUEST.md)
+#### [Bases](javascript/en/PREREQUEST.md)
 
 ## PHP
-#### [Bases](php/PREREQUEST.md)
+#### [Bases](php/en/PREREQUEST.md)

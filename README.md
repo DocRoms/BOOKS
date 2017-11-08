@@ -5,10 +5,10 @@
 Ce dépot 
 
 ## HTML
-#### [Bases](html/PREREQUEST.md)
+#### [Bases](html/fr/PREREQUEST.md)
 
 ## JavaScript
-#### [Bases](javascript/PREREQUEST.md)
+#### [Bases](javascript/fr/PREREQUEST.md)
 
 ## PHP
-#### [Bases](php/PREREQUEST.md)
+#### [Bases](php/fr/PREREQUEST.md)
