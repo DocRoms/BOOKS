@@ -7,6 +7,7 @@ up-to-date code in different programming languages.
 
 ## HTML
 #### [Basic](html/en/PREREQUEST.md)
+#### [Les balises du HTML](html/en/BALISES.md)
 #### [HTML and performance](html/en/PERFORMANCE.md)
 
 ## JavaScript

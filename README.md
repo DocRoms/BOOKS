@@ -1,12 +1,13 @@
 # BOOKS
 
-##### [FR](README.md) | [EN](README_EN.md)
+##### [FR](README.md) | EN
 
 Ce dépôt est initialisé dans le but de pouvoir se former, ou maintenir son niveau 
 de code à jour dans différents languages de programmations.
 
 ## HTML
 #### [Les bases du HTML](html/fr/PREREQUEST.md)
+#### [Les balises du HTML](html/fr/BALISES.md)
 #### [HTML et performance](html/fr/PERFORMANCE.md)
 
 ## JavaScript

@@ -124,3 +124,25 @@ Ou contenir directement du code:
 ### La balise `<body>`
 La balise `<body>` correspond au corps du site internet. Ici, mis à part les commentaires (ex : `<!-- Mon super commentaire-->`), tout 
 ce que vous changerez aurra une incidence directe sur la page visible par vos utilisateurs.
+
+Il existe des centaines de balises utilisables, que vous pouvez comprendre dans le chapitre [Les balises HTML](BALISES.md)
+
+```html
+<body>
+    <header><!-- Entête --></header>
+    <nav><!-- Navigation --></nav>        
+    <aside><!-- Bloc secondaire à coté du contenu principam --></aside>
+    <main><!-- Bloc principal-->
+        <section><!-- Première section du site -->
+            <h1><!-- Titre de la première section --></h1>
+            <article><!-- Contenu de la première section --></article>
+        </section>
+        <section><!-- Seconde section du site -->
+            <h1><!-- Titre de la seconde section --></h1>
+            <article><!-- Contenu de la seconde section --></article>
+        </section>
+    </main>
+    <article><!-- Contenu textuel de la page --></article>
+    <footer><!-- Pied-de-page de la page -> site --></footer>
+</body>
+```
