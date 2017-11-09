@@ -4,7 +4,7 @@
 Le HTML est un language interpretté par un navigateur internet (Edge, Firefox, Opéra Chrome)
 reçoivent des pages en HTML, et affichent la page designé à partir du code reçu.
 
-Pour plus d'information, vous pouvez vous rendre sur le chapitre [Comprendre le fonctionnement d'un site Web]().
+Pour plus d'information, vous pouvez vous rendre sur le chapitre [Comprendre le fonctionnement d'un site Internet](../../tools/fr/UNDERSTAND_HOW_TO_WEBSITE_WORKS.md).
 
 Le code HTML fonctionne sous forme de balises. Il en existe plusieurs types :
  

@@ -22,5 +22,5 @@ de code à jour dans différents languages de programmations.
 #### Framework - Phalcon
 
 ## Divers
-#### Comprendre le fonctionnement d'un site Internet
+#### [Comprendre le fonctionnement d'un site Internet](tools/fr/UNDERSTAND_HOW_TO_WEBSITE_WORKS.md)
 #### Le SQL 
